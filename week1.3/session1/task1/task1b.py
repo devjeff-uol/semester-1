@@ -6,7 +6,8 @@ fruit = ['apple','pear','banana','orange']
 while fruit:
 	print(fruit.pop())
 
-
 # Why does this work?
+# it works because an empty list is falsey
 
 # What features of Python does it rely on?
+# list manipulation methods, falsey values
