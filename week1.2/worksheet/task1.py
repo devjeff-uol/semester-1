@@ -2,7 +2,7 @@
 import sys
 
 grade = input("Please enter an integer grade in the range 0 to 100: ")
-error_message = "Grade must be an integer between 0 and 100"
+error_message = "Error: Grade must be an integer between 0 and 100"
 if not grade.isdecimal():
     sys.exit(error_message)
 
