@@ -8,10 +8,17 @@ rivers = {
 }
 
 # loop through the dict extracting key and value
-
+print("\nItems:")
 for c, r in rivers.items():
     print(c, r)
 
+print("\nKeys:")
+for k in rivers.keys():
+    print(k)
+
+print("\nValues:")
+for v in rivers.values():
+    print(v)
 
 # create 2 further for loops to iterate: 1. just through the keys, 2. just through the values
 # hint: we looked at built in function for dicts last session
