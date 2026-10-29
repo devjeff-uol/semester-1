@@ -73,3 +73,5 @@ class Circle:
         return f"radius={self.radius}, centre={self.centre}"
 
     # Implement your __contains__() method here
+    def __contains__(self, right):
+        return math.hypot(self.centre.x - right.x, self.centre.y - right.y) <= self.radius
