@@ -2,6 +2,7 @@
 
 # Run this program and observe what happens
 
+total = 0
 expenses = [10, 20, 30]
 
 for amount in expenses:
